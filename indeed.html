@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="indeed.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+    <fieldset>
+        <h1>Indeed Job Data</h1>
+        <form method="POST" action="indeed.py">
+            <p class="fontstyle">Job Title: <input type="text" name="searchjob" /></p>
+            <p class="fontstyle">City or Province:
+                <select name="location">
+                    <option value="Toronto,ON">Toronto,ON</option>
+                    <option value="North York,ON">North York,ON</option>
+                    <option value="GTA,ON">GTA,ON</option>
+                    <option value="Vaughan,ON">Vaughan,ON</option>
+                    <option value="Mississauga,ON">Mississauga,ON</option>
+                </select>
+            </p>
+            <p class="fontstyle">Get the Data: <input type="submit" name="dataP" value="Download" /></p>
+        </form>
+    </fieldset>
+</body>
+
+</html>
